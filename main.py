@@ -151,3 +151,15 @@ threading.Thread(target=actualizar_puertos_disponibles, daemon=True).start()
 
 # Loop principal de la interfaz
 main_window.mainloop()
+
+# Integrantes
+# - Josías Hidalgo Umaña
+# - Franklin Castro Rodríguez
+# - Diego Huertas González
+# - María Graciela Mendez Rojas
+# - Thomas Bermúdez Mora
+
+# Conclusiones
+# 1. Gestión eficiente de datos y alertas: La aplicación logró simular adecuadamente la gestión eficiente de los datos provenientes de los sensores, leyéndolos desde archivos de texto y permitiendo la generación de gráficos. La capacidad de activar una alarma sonora en caso de una temperatura superior a 50 grados garantiza una respuesta rápida ante situaciones críticas, mejorando la eficacia del monitoreo en tiempo real.
+# 2. Flexibilidad y adaptabilidad del diseño: El proyecto demostró flexibilidad y adaptabilidad al incorporar todas las funcionalidades requeridas en una interfaz completa, dividida en una pantalla con todo el manejo del login y una pantalla dedicada a la lectura de información. Garantizando una experiencia de usuario cohesiva y fácil de usar, a pesar de la complejidad de las funciones implementadas.
+# 3. Lectura de puerto COM: Se logró implementar la visualización del puerto COM, el cual está directamente vinculado con los puertos COM activos de la computadora. Esta funcionalidad fue validada físicamente mediante el uso de una placa CircuitPlayground, demostrando la efectividad y la precisión del sistema en tiempo real.
